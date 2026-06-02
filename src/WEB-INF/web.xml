@@ -1,7 +1,7 @@
 <web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
   <servlet>
     <servlet-name>HolaServlet</servlet-name>
-    <servlet-class>HolaServlet</servlet-class>
+    <servlet-class>com.ejemplo.HolaServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>HolaServlet</servlet-name>

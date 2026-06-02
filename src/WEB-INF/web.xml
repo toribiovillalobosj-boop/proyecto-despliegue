@@ -1,0 +1,10 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
+  <servlet>
+    <servlet-name>HolaServlet</servlet-name>
+    <servlet-class>HolaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HolaServlet</servlet-name>
+    <url-pattern>/HolaServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
